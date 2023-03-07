@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');  // body-parser is to get user input
-const { request, response } = require('express');
+const { request, response } = require('express');   // I think it write automatically
 const app = express();     //this will put new express application inside app var
 app.use(bodyParser.urlencoded({extended: true})); // for form we use urlencoded.
 
